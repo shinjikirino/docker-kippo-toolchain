@@ -3,8 +3,12 @@ kippo + db + kippo-graph on docker
 
 # How to Use
 ## Start
-$ sh up.sh
+```bash
+$ ./up.sh
+```
 ## Stop
-$ sh down.sh
+```bash
+$ ./down.sh
+```
 # Reference
 https://github.com/dariusbakunas/docker-kippo
