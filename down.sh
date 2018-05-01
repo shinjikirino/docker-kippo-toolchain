@@ -1,4 +1,4 @@
 #!/bin/bash
 
 docker-compose down
-docker stop kippo_kippo_1
+docker stop dockerkippotoolchain_kippo_1
