@@ -8,5 +8,11 @@ db:
   image: mysql:5.6
   ports:
     - "3306:3306"
+  volumes_from:
+    - storage
   environment:
     MYSQL_ROOT_PASSWORD: P@ssw0rd
+storage:
+  image: busybox:latest
+  volumes: 
+    - /srv/docker/kippo/mysql:/var/lib/mysql
